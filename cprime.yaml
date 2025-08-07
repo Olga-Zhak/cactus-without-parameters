@@ -3,8 +3,8 @@ config_schema:
   required: []
   properties: {}
 
-server_name: fetch-mcp
-command: uvx
+server_name: test-mcp
+command: npx
 args:
   - mcp-server-fetch
 env: []
